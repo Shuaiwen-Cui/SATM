@@ -6,3 +6,5 @@ Brief: This project aims to achieve an automatic fine tune of triggering paramet
 Notes: As '.mlx' can not be previewed on Github, I put '.m' versions here. In use, you can use '.mlx' for better interactivity.
 
 Instruction: Please follow the file 'main.mlx', and the program is conducted as the sequential number suggests.
+
+Environment: Matlab R2023a
