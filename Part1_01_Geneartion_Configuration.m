@@ -19,7 +19,7 @@ SimStep = 0.01; % for variable-step simulation better no bigger than 0.005
 
 % downsampling setup
 hf = 1;
-lf = 1;
+lf = 2;
 ds_ratio = lf/hf;
 
 % time window
