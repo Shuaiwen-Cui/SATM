@@ -37,12 +37,39 @@
 
 ![illustration](Prototype_V2/SATM_Prototype_Metrics_V2.png)
 
-# 3rd Version - [under development]
+# 3rd Version - [not ideal]
 - New Feature - Metrics Guided Control
 
 ![illustration](Prototype_V3/SATM_Prototype_V3.png)
 - stage 1: yes or no feedback
 - stage 2: metrics guided control - not working well now
+
+![illustration](Prototype_V3/SATM_Prototype_Metrics_V3.png)
+
+# 4th Version - []
+- New Feature - Offline Training - take the parameter that makes the Fbeta score the highest
+
+> grid search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Ideas：
 - traditional controller
