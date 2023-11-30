@@ -46,11 +46,50 @@
 
 ![illustration](Prototype_V3/SATM_Prototype_Metrics_V3.png)
 
-# 4th Version - []
+# 4th Version - [✅]
 - New Feature - Offline Training - take the parameter that makes the Fbeta score the highest
 
 > grid search
 
+1. Collect Data
+2. Offline Training
+   - setup the starting point and the end point of the threshold
+   - setup the step size
+   - loop through the threshold, calculate the Precision, Recall, Fbeta score
+   - take the parameter that makes the Fbeta score the highest
+
+> Conclusions:
+Small beta value: Precision is more important than Recall
+Large beta value: Recall is more important than Precision
+
+(1) F-beta = 1
+![illustration](Prototype_V4/fig_events_Fbeta_1.png)
+
+![illustration](Prototype_V4/fig_metrics_Fbeta_1.png)
+
+(2) F-beta = 0.1
+![illustration](Prototype_V4/fig_events_Fbeta_1_10.png)
+
+![illustration](Prototype_V4/fig_metrics_Fbeta_1_10.png)
+
+(3) F-beta = 10
+![illustration](Prototype_V4/fig_events_Fbeta_10.png)
+
+![illustration](Prototype_V4/fig_metrics_Fbeta_10.png)
+
+# 5th Version - [✅]
+- New Feature - Window Triggering Mechanism
+- Dataset SATM - 4 types of events
+- Accuracy, Precision, Recall, Fbeta Distribution
+
+![illustration](Prototype_V5/acc.png)
+
+![illustration](Prototype_V5/prec.png)
+
+![illustration](Prototype_V5/rec.png)
+
+BETA = 2
+![illustration](Prototype_V5/fbeta.png)
 
 
 
@@ -71,20 +110,4 @@
 
 
 
-# Ideas：
-- traditional controller
-- magnitude & duration
 
-the idea is similar to the pinoeer sensing to get knowledge to properly setup the thresholds for magnitude and duration
-# environment-aware control framework - know the environment first then control; to tackle with the unseen events, plus human knowledge
-
-Part 1:
-Sense All and Clustering - threshold
-- extant classes
-- new classes
-
-Part 2:
-Judge whether the event is interested or not  - (1) criterions (2) known classes
-
-Part 3:
-based on the context 
